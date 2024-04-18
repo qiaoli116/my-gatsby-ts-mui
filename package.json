@@ -18,8 +18,14 @@
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
+    "@mdx-js/react": "^2.3.0",
     "@mui/material": "^5.15.15",
     "gatsby": "^5.13.3",
+    "gatsby-plugin-mdx": "^5.13.1",
+    "gatsby-plugin-module-resolver": "^1.0.3",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-json": "^5.13.1",
+    "gatsby-transformer-yaml": "^5.13.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -27,6 +33,10 @@
     "@types/node": "^20.11.19",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.19",
+    "gatsby-plugin-postcss": "^6.13.1",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
     "typescript": "^5.3.3"
   }
 }

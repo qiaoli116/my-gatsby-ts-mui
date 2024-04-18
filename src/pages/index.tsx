@@ -1,7 +1,8 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
 import { Button } from "@mui/material"
-import { FormControl, InputLabel, MenuItem, Select, Checkbox, ListItemText, OutlinedInput, SelectChangeEvent } from "@mui/material"
+import { FormControl, InputLabel, MenuItem, Select, Checkbox, ListItemText, OutlinedInput, SelectChangeEvent } from "@mui/material";
+import Layout from "@components/layout"
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
 const MenuProps = {
@@ -67,13 +68,22 @@ function MultipleSelectCheckmarks() {
 
 
 
-const IndexPage: React.FC<PageProps> = () => {
+const IndexPage: React.FC<PageProps> = (props) => {
+  // const params = new URLSearchParams(location.search);
+  // const parameter1 = params.get("foo");
+  // const parameter2 = params.get("bar");
+  console.log(props)
+  // console.log(parameter1, parameter2);
   return (
-    <main>
-      hello world
+    <Layout>
+      <h1 className="text-3xl font-bold underline">
+        Hello world!
+      </h1>
       <Button variant="contained">MUI Button</Button>
       <MultipleSelectCheckmarks />
-    </main>
+
+
+    </Layout>
   )
 }
 

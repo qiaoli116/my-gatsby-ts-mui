@@ -1,3 +1,5 @@
+import './src/styles/global.css'
+
 import React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './theme'; // Import your created theme
@@ -6,3 +8,4 @@ import theme from './theme'; // Import your created theme
 export const wrapRootElement = ({ element }) => {
   return <ThemeProvider theme={theme}>{element}</ThemeProvider>;
 };
+

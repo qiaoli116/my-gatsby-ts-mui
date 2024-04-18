@@ -1,3 +1,4 @@
+// mui theme.ts
 import { createTheme, PaletteOptions, ThemeOptions } from '@mui/material/styles';
 
 const palette: PaletteOptions = {
