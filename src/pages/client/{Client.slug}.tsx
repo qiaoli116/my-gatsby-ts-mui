@@ -15,7 +15,7 @@ const ClientPage: React.FC<PageProps<{client:TypeClient}>> = (props) => {
   const client: TypeClient = props.data.client;
   return (
     <Layout>
-      <h1 className="text-3xl font-bold underline">{client.name}</h1>
+      <h1 className="text-1xl font-bold underline">{client.name}</h1>
       <p>{client.email}</p>
       <p>{client.phone}</p>
       <p>{client.clientId}</p>

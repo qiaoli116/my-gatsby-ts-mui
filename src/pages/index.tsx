@@ -81,8 +81,6 @@ const IndexPage: React.FC<PageProps> = (props) => {
       </h1>
       <Button variant="contained">MUI Button</Button>
       <MultipleSelectCheckmarks />
-
-
     </Layout>
   )
 }
